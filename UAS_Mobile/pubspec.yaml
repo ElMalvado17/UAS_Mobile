@@ -1,0 +1,30 @@
+name: drian_s_application3
+description: A new Flutter project.
+version: 1.0.0+1
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+dependencies:
+  cached_network_image: ^3.2.1
+  flutter:
+    sdk: flutter
+  flutter_local_notifications: ^15.1.0+1
+  flutter_svg: ^1.1.6
+  intl: ^0.18.1
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/images/
+    - images/splash1.jpg
+    - images/splash2.jpg
+    - images/splash3.jpg
+  fonts:
+    - family: Istok Web
+      fonts:
+        - asset: assets/fonts/IstokWebRegular.ttf
+          weight: 400
+        - asset: assets/fonts/IstokWebBold.ttf
+          weight: 700
